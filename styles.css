@@ -1,0 +1,119 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.search-section {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.dark-mode {
+    background-color: #222;
+    color: white;
+}
+
+#loadingSpinner {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#dateTime {
+    text-align: center;
+    margin: 10px;
+}
+
+/* Style the main content container */
+body {
+    background-color: #f4f4f4;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Style the button */
+button {
+    margin-bottom: 10px;
+}
+
+/* Style the main content container */
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+/* Style the search and charts sections */
+.search-section,
+.charts-section {
+    width: 48%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.charts-section {
+    text-align: center;
+    background-color: #fff; /* Set background color for the chart section */
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+.toggle-btn {
+    background-color: transparent;
+    color: #777;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+}
+
+/* On hover, make it slightly darker */
+.toggle-btn:hover {
+    color: #555;
+}
